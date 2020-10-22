@@ -25,12 +25,13 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author foxim
+ * @author Fuad
  */
 public class JavaFXApplication1 extends Application {
     
     @Override
     public void start(Stage primaryStage) {
+        /*Made by Fuad*/
         Button btn = new Button();
         Image image = new Image( getClass().getResource("maldives.jpg").toExternalForm(), 400, 400, false, false);
         BackgroundImage backgroundImage = new BackgroundImage( image, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.DEFAULT, BackgroundSize.DEFAULT);
